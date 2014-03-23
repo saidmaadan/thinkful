@@ -1,0 +1,153 @@
+
+body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	
+	position: fixed;
+	width: 100%;
+	margin-top: -20px;
+	height: 60px;
+	margin-bottom: 10px;
+	background: #BFBB7C;
+	background-size: cover;
+}
+section {
+	width: 80%;
+	margin: auto;
+}
+section h1 {
+	float:left;
+	margin-left: 5px;
+	padding-top: -20px;
+	font-size: 1.4em;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+section p {
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	text-align: center:;
+}
+.main {
+	width: 80%;
+	margin: auto;
+	padding-top: 50px;
+	
+	background: #BCBA98;
+}
+.main p {
+	padding: 0 30px;
+}
+#intro {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.0em;
+	color: #005500;
+}
+#intro:hover {
+	color: #97AA68;
+	font-size: 1.1em;
+}
+#article {
+	padding-left: 50px;
+	padding-right: 20px;
+}
+#article p span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#left {
+	width: 20%;
+	height: 400px;
+	float: right;
+
+	margin-top: -750px;
+	margin-right: -80px;
+	background: #A0582B;
+}
+#left img {
+  
+	border-radius: 100%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#left a {
+	text-decoration: none;
+	padding-left: 5px;
+	padding-top: 5px;
+	color: #F3FFDD;
+}
+#left a:hover {
+	color: #212126;
+	font-weight: bold;
+}
+footer {
+	clear: both;
+	height: 50px;
+	background: #49724B;
+	background-size: cover;
+}
+footer p {
+	text-align: center;
+	padding-top: 20px;
+	color: #1B1B23;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Medium ------------ */
+@media screen and (max-width: 768px) {
+	body {
+	width: 100%; 
+}
+.section {
+	width: 100%; 
+}
+.main {
+	width: 100%; 
+	padding-left: 5px;
+}
+#article {
+	width: 100%;
+	padding: 5px;
+}
+#left {
+	margin-right: -20px;
+}
+#left img {
+
+	border-radius: 80%;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+}
+/* Smaller ----------- */
+@media screen and (max-width : 650px) {
+	body {
+		width: 100%;
+}
+
+.section {
+	width: 100%; 
+}
+.main {
+	width: 100%; 
+	padding-left: 5px;
+}
+#article {
+	width: 100%;
+	padding: 5px;
+}
+#left {
+	display: none;
+}
+}
