@@ -581,7 +581,7 @@ header {
 /*last*/
 .last {
 	background: #005500;
-	height: 700px;
+	height: 600px;
 	border-top: 10px solid #103402;
 }
 .last article {
@@ -592,7 +592,6 @@ article .get-in-touch{
 	width: 100%;
 }
 article .get-in-touch ul{
-	float: left;
 	margin-top: 15px;
 }
 .get-in-touch ul li{
@@ -609,7 +608,6 @@ article .get-in-touch ul li a{
 }
 article .social-net{
 	width: 100%;
-	float: right;
 }
 article .social-net h3{
 	color: #F0F6EE;
@@ -631,7 +629,6 @@ article .social-net a:hover{
 }
 .last aside .social{
 	width: 100%;
-	float: left;
 }
 aside .social h3{
 	color: #F0F6EE;
@@ -643,11 +640,11 @@ aside .social p{
 }
 .last .contact{
 	width: 100%;
-	float: left;
-	
+
 }
 .last aside form{
 	padding-top: 20px;
+
 	
 }
 aside #name{
@@ -665,7 +662,6 @@ aside #message{
 	width: 220px;
 	height: 60px;
 	margin-top: 3px;
-	
 }
 aside #submit{
 	width: 80px;

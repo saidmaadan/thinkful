@@ -35,17 +35,18 @@ section p {
 	color: #ffffff;
 	text-align: center:;
 }
-.main {
+article {
 	width: 80%;
 	margin: auto;
 	padding-top: 50px;
-	
+	padding-bottom: 60px;
 	background: #BCBA98;
 }
-.main p {
+article p {
 	padding: 0 30px;
 }
-#intro {
+article #intro {
+	width: 100%;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.0em;
@@ -55,36 +56,36 @@ section p {
 	color: #97AA68;
 	font-size: 1.1em;
 }
-#article {
+article .main {
+	width: 80%;
 	padding-left: 50px;
 	padding-right: 20px;
 }
-#article span {
+.main span {
 	font-size: 1.2em;
 	font-weight: bold;
 }
-#left {
-	width: 17%;
+article .contact {
+	width: 20%;
 	height: 400px;
 	float: right;
-
+	margin-right: -80px;
 	margin-top: -750px;
-	margin-right: 40px;
 	background: #A0582B;
 }
-#left img {
+article .contact img {
   
 	border-radius: 100%;
 	margin-left: 30px;
 	margin-top: 20px;
 }
-#left a {
+article .contact a {
 	text-decoration: none;
-	padding-left: 30px;
+	padding-left: 10px;
 	padding-top: 5px;
 	color: #F3FFDD;
 }
-#left a:hover {
+article .contact a:hover {
 	color: #212126;
 	font-weight: bold;
 }
@@ -113,23 +114,38 @@ footer a {
 .section {
 	width: 100%; 
 }
-.main {
+section h1{
+	font-size: 1em;
+}
+section p {
+	font-size: 0.5em;
+}
+article {
 	width: 100%; 
 	padding-left: 5px;
 }
-#article {
-	width: 100%;
+article #intro{
+	width: 90%;
+	margin: auto;
+}
+.main {
+	width: 60%;
 	padding: 5px;
 }
-#left {
-	width: 30%;
-	margin-right: -20px;
+.contact {
+	width: 40%;
+	margin-left: -30px;
+	/*margin-right: -20px;*/
 }
-#left img {
-
-	border-radius: 80%;
+.contact p a{
+	width: 95%;
+	padding-left: -40px;
+}
+.contact img {
+	display: none;
+	/*border-radius: 80%;
 	margin-left: 1px;
-	margin-top: 20px;
+	margin-top: 20px;*/
 }
 }
 /* Smaller ----------- */
@@ -141,15 +157,15 @@ footer a {
 .section {
 	width: 100%; 
 }
-.main {
+article {
 	width: 100%; 
 	padding-left: 5px;
 }
-#article {
+.main {
 	width: 100%;
 	padding: 5px;
 }
-#left {
+.contact {
 	display: none;
 }
 }
