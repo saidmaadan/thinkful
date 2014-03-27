@@ -28,7 +28,7 @@ nav ul li img {
 }
 .btn {
 	background: #2E9AFE;
-	padding: 7px 7px 7px 9px;
+	padding: 6px 6px 6px 8px;
 	border-radius: 3px;	
 }
 .btn:hover {
@@ -56,8 +56,20 @@ nav ul li img {
 		background: url('../img/micro.png')no-repeat right;
 		background-size: 25px 25px;
 		cursor: pointer;
-
+		border-width: thin;
+	    border-style: solid;
+	    border-color: #c8c8c8;
 	}
+	.main input:hover {
+	border-color: #8b8b8b;
+}
+  .main input:focus {
+    border-style: solid;
+	  border-width: thin;
+	  border-color: #4585ef;
+	  outline: none;
+    }
+
 	.main ul {
 		margin-top: 20px;
 		margin-left: 110px;

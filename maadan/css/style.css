@@ -3,6 +3,7 @@ body {
 	background: url('../img/m-logo2.png')no-repeat;
 	background-size: cover; 
 	background-clip: padding-box;
+	bottom: 0;
 }
 .intro {
 	width: 100%;
