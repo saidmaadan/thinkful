@@ -1,4 +1,9 @@
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 	width: 100%;
 	height: 100%;
@@ -20,7 +25,6 @@ section {
 section h1 {
 	float:left;
 	margin-left: 5px;
-	padding-top: -20px;
 	font-size: 1.4em;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
@@ -33,7 +37,7 @@ section p {
 	font-size: 12px;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
-	text-align: center:;
+	text-align: center;
 }
 article {
 	width: 80%;
@@ -139,7 +143,6 @@ article #intro{
 }
 .contact p a{
 	width: 95%;
-	padding-left: -40px;
 }
 .contact img {
 	display: none;
